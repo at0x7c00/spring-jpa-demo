@@ -12,7 +12,6 @@ import com.example.demo.repository.ChapterRepository;
 import com.example.demo.service.IChapterService;
 
 @Service
-@Transactional
 public class ChapterServiceImpl implements IChapterService{
 
 	@Autowired

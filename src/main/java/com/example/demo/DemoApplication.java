@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
+@EnableJpaRepositories(basePackages = "com.example.demo.repository")
 public class DemoApplication {
 
 	public static void main(String[] args) {

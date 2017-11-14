@@ -27,7 +27,5 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-	compile('mysql:mysql-connector-java:6.0.6')
-	compile('com.mchange:c3p0:0.9.5.2')
-	compile group: 'org.springframework', name: 'spring-hibernate', version: '1.2.9'
+	runtime('mysql:mysql-connector-java:6.0.6')
 }
